@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "EventSchema",
+  "namespace": "com.example.springlib.kafka.avro",
+  "fields": [
+    {"name": "type", "type": "string"},
+    {"name": "payload", "type": "string"}
+  ]
+}
